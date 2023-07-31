@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+.outer-details {
+  margin-bottom: 10px; 
+  padding-left: 20px; 
+
+}
+.chevron{
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.inner-details {
+  margin-bottom: 10px; 
+  padding-left: 20px; 
+}
+.submodelbtn{
+  color:brown ;
+  border: 2px solid brown; 
+  border-radius: 22px; 
+  padding: 6px 14px 6px 14px;
+  cursor: pointer;
+}
+.collection{
+  border: 2px solid green; 
+  border-radius: 22px; 
+  padding: 6px 14px 6px 14px;
+  cursor: pointer;
+}
+.submodel{
+  margin-left: 2px;
+  font-weight: bold;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  right:0;
+  position: absolute;
+  font-weight: bold;
+  font-size: 13px;
+}
+.input-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+input {
+  flex: 1;
+  margin: 0 50px 3px;
+  border-style: groove;
+  border-radius: 4px;
+  border-color: grey;
+}
+.property{
+  margin: 5px 5px 5px 5px;
+  border: 2px solid rgb(241, 14, 184);
+  padding: 6px 14px 6px 14px;
+  border-radius: 22px;
+  color: rgb(241, 14, 184);
+}
+.inner-inner-details {
+  margin-bottom: 10px; 
+  padding-left: 20px; 
+}
